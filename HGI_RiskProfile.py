@@ -1,7 +1,7 @@
 ﻿# risk_profile_app.py
 import streamlit as st
 import pandas as pd
-#import plotly.express as px
+import plotly.express as px
 
 # --- Configuration ---
 st.set_page_config(page_title="Risk Profile Questioner", page_icon="📊", layout="centered")
@@ -221,3 +221,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
