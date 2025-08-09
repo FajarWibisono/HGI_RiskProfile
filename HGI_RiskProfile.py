@@ -48,7 +48,7 @@ def get_allocation_recommendation(category):
             "details": [
                 "• 30% Saham blue-chip / reksa dana campuran",
                 "• 20% Sukuk/ORI",
-                "• 15% Fintech/P2P Lending (pilih platform terdaftar OJK, risiko menengah)",
+                "• 15% Fintech/P2P Lending (pilih platform terdaftar OJK, dengan risiko menengah)",
                 "• 15% Franchise/usaha skala menengah (Rp50–200 juta)",
                 "• 10% Emas",
                 "• 10% Kripto ≤5 %"
@@ -63,7 +63,7 @@ def get_allocation_recommendation(category):
                 "• 10% Fintech/P2P Lending (pilih platform terdaftar OJK, risiko tinggi)",
                 "• 15% Franchise/usaha baru modal >Rp200 juta",
                 "• 10% Properti/Reksa dana properti",
-                "• 10% Kripto/Emas (risiko tinggi)"
+                "• 10% Kripto/trading Emas (risiko tinggi)"
             ]
         }
     }
@@ -221,4 +221,5 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
