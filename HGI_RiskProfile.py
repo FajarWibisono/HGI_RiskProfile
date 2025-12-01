@@ -72,8 +72,8 @@ def get_allocation_recommendation(category):
 # --- Main App ---
 def main():
     # --- Title and Instructions ---
-    st.title("RISK PROFILE QUESTIONER")
-    st.markdown("**(HumanisGroup - CTAP Series Tools)**")
+    st.title("RISK PROFILE INVENTORY")
+    st.markdown("**(HumanisGroup - **www.humanisgroup.co.id** - CTAP Series Tools)**")
     st.markdown("""
     **📋 PETUNJUK PENGISIAN:**
     * Tidak ada jawaban “benar” atau “salah”, "baik" atau "buruk".
@@ -238,6 +238,7 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
 
 
 
