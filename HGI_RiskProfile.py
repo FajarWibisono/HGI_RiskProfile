@@ -4,7 +4,7 @@ import pandas as pd
 import plotly.express as px
 
 # --- Configuration ---
-st.set_page_config(page_title="Risk Profile Questioner", page_icon="📊", layout="centered")
+st.set_page_config(page_title="Risk Profile Inventory", page_icon="📊", layout="centered")
 
 # --- Helper Functions ---
 def get_risk_category(score):
@@ -238,5 +238,6 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
 
 
